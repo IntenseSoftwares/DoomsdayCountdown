@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Doomsday Countdown - Intense Softwares</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background video -->
+  <video id="bg" autoplay playsinline loop>
+    <source src="DoomsdayBG.mp4" type="video/mp4" />
+  </video>
+  <div class="overlay"></div>
+
+  <!-- Center content -->
+  <main class="center">
+    <div class="wrap">
+      <h1>DOOMSDAY IS COMING</h1>
+
+      <div class="timer" aria-label="Countdown timer">
+        <div class="box">
+          <div class="num" id="months">00</div>
+          <div class="label">MONTHS</div>
+        </div>
+
+        <div class="sep">:</div>
+
+        <div class="box">
+          <div class="num" id="days">00</div>
+          <div class="label">DAYS</div>
+        </div>
+
+        <div class="sep">:</div>
+
+        <div class="box">
+          <div class="num" id="hours">00</div>
+          <div class="label">HOURS</div>
+        </div>
+
+        <div class="sep">:</div>
+
+        <div class="box">
+          <div class="num" id="mins">00</div>
+          <div class="label">MIN</div>
+        </div>
+
+        <div class="sep">:</div>
+
+        <div class="box">
+          <div class="num" id="secs">00</div>
+          <div class="label">SEC</div>
+        </div>
+      </div>
+      
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
